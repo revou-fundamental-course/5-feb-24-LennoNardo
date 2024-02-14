@@ -1,0 +1,65 @@
+* {
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background-image: url(../assets/wallpaper-asthetic-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: justify;
+}
+
+h5 {
+    text-align: center;
+}
+
+.wrapper {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-top: auto;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-section label {
+
+}
+
+.input-field {
+    height: 40px;
+}
+
+.my-button {
+    margin-top: 10px;
+}
+
+.my-button button {
+    background-color: rgb(103, 216, 250);
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.my-button button:hover {
+    background-color: rgba(103, 216, 250, 0.756);
+}
